@@ -1,5 +1,5 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @next/next/no-img-element */
+// /* eslint-disable @typescript-eslint/no-unused-vars */
+// /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import ProductListing from "../Components1/ProductListing"; // Importing the ProductListing component
 
