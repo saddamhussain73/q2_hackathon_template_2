@@ -1,6 +1,6 @@
 import React from "react";
 
-const Signup = () => {
+const JoinUs = () => {
   return (
     <section className="w-full bg-gray-50 py-12 px-6">
       <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
@@ -32,4 +32,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default JoinUs;

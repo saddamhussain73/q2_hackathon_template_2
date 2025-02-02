@@ -32,7 +32,7 @@ const Footer = () => {
                 <a href="#" className="hover:text-gray-400">Popular this week</a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-400">All products</a>
+                <a href="/AllProducts" className="hover:text-gray-400">All products</a>
               </li>
             </nav>
           </div>

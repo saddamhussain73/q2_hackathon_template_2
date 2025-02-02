@@ -1,36 +1,20 @@
-import Image from "next/image";
-import TopNav from "./Components/TopNav";
-// import HeroBlocks from "./Components/HeroBlocks";
-import ArrayMap from "./Components/products";
-import OurProducts from "./Components/OurProducts";
-import Footer from "./Components/Footer";
-import HeroComponent from "./Components/HeroComponent";
-import Features from "./Components/Features";
-import Features2 from "./Components/Features2";
-import Signup from "./Components/SignUp";
-
-
-
-
+import OurProducts from "./Components1/OurProducts";
+import HeroComponent from "./Components1/HeroComponent";
+import Features from "./Components1/Features";
+import Features2 from "./Components1/Features2";
+import JoinUs from "./Components1/JoinUs";
+import NewCeramics from "./Components1/NewCeramics";
 
 
 export default function Home() {
   return (
     <div>
-      <TopNav />
       <HeroComponent />
-    <Features />
-      {/* <HeroBlocks /> */}
-      <ArrayMap />
-      {/* <ParentComponent /> */}
-    
-    <Signup />
-      <Features2 />
+      <Features />
+     <NewCeramics />
       <OurProducts />
-      <Footer />
-     
-  
-      
+      <JoinUs />
+      <Features2 />
     </div>
   );
 }
